@@ -1,0 +1,1 @@
+echo [ %date% %time% ] hello startup script! >> startup_executed.log
