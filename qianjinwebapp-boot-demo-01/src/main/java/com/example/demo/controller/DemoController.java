@@ -8,7 +8,7 @@ public class DemoController {
 
     @RequestMapping({"/", "/index"})
     public String myIndex() {
-        return "Hello Spring Boot. ---- NEW ---one deploy 01 - slot";
+        return "Hello Spring Boot. ---- NEW ---one deploy 02 - slot";
     }
 
 }

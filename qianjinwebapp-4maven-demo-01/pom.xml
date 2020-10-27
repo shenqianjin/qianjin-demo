@@ -65,20 +65,20 @@
       <plugin>
         <groupId>com.microsoft.azure</groupId>
         <artifactId>azure-webapp-maven-plugin</artifactId>
-        <version>1.12.0</version>
+        <!-- <version>1.11.0</version> -->
         <configuration>
-          <schemaVersion>v2</schemaVersion>
+          <schemaVersion>V2</schemaVersion>
           <subscriptionId>685ba005-af8d-4b04-8f16-a7bf38b2eb5a</subscriptionId>
           <resourceGroup>qianjinshen</resourceGroup>
-          <appName>qianjinshen-ww-01</appName>
-          <pricingTier>P1v2</pricingTier>
+          <appName>qianjinshen-ww-03</appName>
+          <pricingTier>S1</pricingTier>
           <region>centralus</region>
-          <appServicePlanName>cln2496a0e3-293b-4d26-85f0-f93868634dc2</appServicePlanName>
-          <appServicePlanResourceGroup>cleanupservice</appServicePlanResourceGroup>
+          <appServicePlanName>plappservice02</appServicePlanName>
+          <appServicePlanResourceGroup>plwin</appServicePlanResourceGroup>
           <runtime>
-            <os>Windows</os>
-            <javaVersion>Java 8</javaVersion>
-            <webContainer>Tomcat 9.0</webContainer>
+            <os>windows</os>
+            <javaVersion>1.8</javaVersion>
+            <webContainer>tomcat 8.5</webContainer>
           </runtime>
           <deployment>
             <resources>
