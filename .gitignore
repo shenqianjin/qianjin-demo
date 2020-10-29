@@ -9,9 +9,9 @@ rebel.xml
 
 # maven ignore
 target/
-*.jar
+# *.jar
 *.war
-*.zip
+# *.zip
 *.tar
 *.tar.gz
 
