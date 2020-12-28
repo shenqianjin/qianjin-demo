@@ -9,13 +9,13 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>qianjinwebapp-demo-01</module>
-        <module>qianjinwebapp-demo-02</module>
-        <module>qianjinwebapp-boot-demo-01</module>
-        <module>qianjinwebapp-4maven-demo-01</module>
-        <module>qianjinwebapp-demo-01 space</module>
-        <!--<module>qianjinwebapp-ear-demo-01</module>-->
-        <module>qianjinwebapp-ear-demo-war</module>
+        <module>demo-01</module>
+        <module>demo-02</module>
+        <module>demo-boot-01</module>
+        <module>demo-4maven-01</module>
+        <module>demo-01 space</module>
+        <module>demo-ear-01</module>
+        <module>demo-ear-war</module>
     </modules>
 
 
