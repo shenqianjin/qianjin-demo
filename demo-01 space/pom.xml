@@ -9,10 +9,10 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>qianjin-demo-01-space</artifactId>
+    <artifactId>demo-01-space</artifactId>
     <packaging>war</packaging>
 
-    <name>qianjin-demo-01 space</name>
+    <name>demo-01 space</name>
     <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
 
@@ -32,7 +32,7 @@
     </dependencies>
 
     <build>
-        <finalName>qianjinweb-demo-01 space</finalName>
+        <finalName>demo-01 space</finalName>
         <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
             <plugins>
                 <plugin>
