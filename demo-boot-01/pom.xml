@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>qianjinwebapp-boot-demo-01</artifactId>
+	<artifactId>qianjin-boot-demo-01</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>qianjinwebapp-boot-demo-01</name>
+	<name>qianjin-boot-demo-01</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
