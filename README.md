@@ -1,1 +1,1 @@
-# qianjinwebapp-demo
+# qianjin-demo
