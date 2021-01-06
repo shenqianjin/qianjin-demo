@@ -15,6 +15,7 @@
         <module>demo-ear-01</module>
         <module>demo-ear-01-war</module>
         <module>demo-4maven-01</module>
+        <module>demo-function</module>
     </modules>
     <packaging>pom</packaging>
 
