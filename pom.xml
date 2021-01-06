@@ -5,17 +5,18 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>qianjin-demo</artifactId>
-    <packaging>pom</packaging>
+    <artifactId>qianjin-demo2</artifactId>
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>demo-01</module>
         <module>demo-02</module>
-        <module>demo-boot-01</module>
-        <module>demo-4maven-01</module>
         <module>demo-01 space</module>
+        <module>demo-boot-01</module>
         <module>demo-ear-01</module>
-        <module>demo-ear-war</module>
+        <module>demo-ear-01-war</module>
+        <module>demo-4maven-01</module>
     </modules>
+    <packaging>pom</packaging>
+
 
 </project>
