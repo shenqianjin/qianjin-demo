@@ -5,17 +5,18 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>qianjin-demo2</artifactId>
+    <artifactId>function-demo</artifactId>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>demo-01</module>
-        <module>demo-02</module>
-        <module>demo-01 space</module>
-        <module>demo-boot-01</module>
-        <module>demo-ear-01</module>
-        <module>demo-ear-01-war</module>
-        <module>demo-4maven-01</module>
-        <module>function-demo</module>
+        <module>demo-01-http</module>
+        <module>demo-01-timer</module>
+        <module>demo-01-cosmos</module>
+        <module>demo-01-blob</module>
+        <module>demo-01-queue</module>
+        <module>demo-01-eventgrid</module>
+        <module>demo-01-eventhub</module>
+        <module>demo-01-serverbusqueue</module>
+        <module>demo-01-servicebustopic</module>
     </modules>
     <packaging>pom</packaging>
 
