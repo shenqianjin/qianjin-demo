@@ -12,6 +12,7 @@
         <module>demo-02</module>
         <module>demo-01 space</module>
         <module>demo-boot-01</module>
+        <module>demo-boot-02-mysql</module>
         <module>demo-ear-01</module>
         <module>demo-ear-01-war</module>
         <module>demo-4maven-01</module>

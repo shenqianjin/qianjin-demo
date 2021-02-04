@@ -1,0 +1,49 @@
+{
+  "linkers" : [ {
+    "id" : "baf14d5cc0de43b9b742a435b6f78c4c",
+    "type" : "SERVICE_WITH_PROJECT",
+    "sourceId" : "jdbc:mysql://qianjin-mysql.mysql.database.azure.com:3306/db_example#qianjin@qianjin-mysql#AZURE_MYSQL_",
+    "targetId" : "demo-boot-02-mysql"
+  }, {
+    "id" : "b2c56956fc3e46e693661090b1d30828",
+    "type" : "SERVICE_WITH_PROJECT",
+    "sourceId" : "jdbc:mysql://qianjin-mysql.mysql.database.azure.com:3306/mysql#qianjin@qianjin-mysql#AZURE_MYSQL_",
+    "targetId" : "demo-01"
+  }, {
+    "id" : "1bfe562e3f3a47038af01515ca3e6231",
+    "type" : "SERVICE_WITH_PROJECT",
+    "sourceId" : "jdbc:mysql://qianjin-mysql.mysql.database.azure.com:3306/information_schema#qianjin@qianjin-mysql#AZURE_MYSQL_",
+    "targetId" : "demo-01"
+  } ],
+  "services" : {
+    "IDE_MODULE" : [ {
+      "id" : "demo-boot-02-mysql",
+      "type" : "IDE_MODULE"
+    }, {
+      "id" : "demo-01",
+      "type" : "IDE_MODULE"
+    } ],
+    "AZURE_DATABASE_FOR_MYSQL" : [ {
+      "id" : "jdbc:mysql://qianjin-mysql.mysql.database.azure.com:3306/db_example#qianjin@qianjin-mysql#AZURE_MYSQL_",
+      "type" : "AZURE_DATABASE_FOR_MYSQL",
+      "envPrefix" : "AZURE_MYSQL_",
+      "url" : "jdbc:mysql://qianjin-mysql.mysql.database.azure.com:3306/db_example?serverTimezone=UTC&useSSL=true&requireSSL=false",
+      "username" : "qianjin@qianjin-mysql",
+      "passwordSaveType" : "NEVER"
+    }, {
+      "id" : "jdbc:mysql://qianjin-mysql.mysql.database.azure.com:3306/mysql#qianjin@qianjin-mysql#AZURE_MYSQL_",
+      "type" : "AZURE_DATABASE_FOR_MYSQL",
+      "envPrefix" : "AZURE_MYSQL_",
+      "url" : "jdbc:mysql://qianjin-mysql.mysql.database.azure.com:3306/mysql?serverTimezone=UTC&useSSL=true&requireSSL=false",
+      "username" : "qianjin@qianjin-mysql",
+      "passwordSaveType" : "NEVER"
+    }, {
+      "id" : "jdbc:mysql://qianjin-mysql.mysql.database.azure.com:3306/information_schema#qianjin@qianjin-mysql#AZURE_MYSQL_",
+      "type" : "AZURE_DATABASE_FOR_MYSQL",
+      "envPrefix" : "AZURE_MYSQL_",
+      "url" : "jdbc:mysql://qianjin-mysql.mysql.database.azure.com:3306/information_schema?serverTimezone=UTC&useSSL=true&requireSSL=false",
+      "username" : "qianjin@qianjin-mysql",
+      "passwordSaveType" : "NEVER"
+    } ]
+  }
+}

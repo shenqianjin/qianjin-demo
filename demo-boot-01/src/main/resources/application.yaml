@@ -1,0 +1,8 @@
+#spring:
+#  server:
+#    port: 1111
+#  redis:
+#    client-name: ${asdf}
+#  database:
+#    url: ${AZURE}
+#
