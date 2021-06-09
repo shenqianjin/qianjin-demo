@@ -1,6 +1,6 @@
-package com.example.demo.boot.mysql.repository;
+package com.example.demo.boot.sql.repository;
 
-import com.example.demo.boot.mysql.entity.User;
+import com.example.demo.boot.sql.entity.User;
 import org.springframework.data.repository.CrudRepository;
 
 // This will be AUTO IMPLEMENTED by Spring into a Bean called userRepository

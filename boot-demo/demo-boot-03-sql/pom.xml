@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>demo-boot-02-mysql</artifactId>
+	<artifactId>demo-boot-03-sql</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>demo-boot-02-mysql</name>
+	<name>demo-boot-03-sql</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -39,8 +39,8 @@
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
+			<groupId>com.microsoft.sqlserver</groupId>
+			<artifactId>mssql-jdbc</artifactId>
 			<scope>runtime</scope>
 		</dependency>
 

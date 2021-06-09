@@ -1,4 +1,4 @@
-package com.example.demo.boot.mysql.entity;
+package com.example.demo.boot.sql.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -6,7 +6,8 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Entity // This tells Hibernate to make a table out of this class
-public class User {
+// user 是SQL的关键字，这里class name不能为 User
+public class MyUser {
     @Id
     @GeneratedValue(strategy=GenerationType.IDENTITY)
     private Integer id;

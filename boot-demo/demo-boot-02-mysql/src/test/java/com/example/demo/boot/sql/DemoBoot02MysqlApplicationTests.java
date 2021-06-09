@@ -1,7 +1,6 @@
-package com.example.demo.boot.mysql;
+package com.example.demo.boot.sql;
 
 import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
 
 // @SpringBootTest
 class DemoBoot02MysqlApplicationTests {

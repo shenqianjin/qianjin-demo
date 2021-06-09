@@ -11,6 +11,7 @@
         <module>function-demo</module>
         <module>webapp-demo</module>
         <module>boot-demo</module>
+        <module>common</module>
     </modules>
     <packaging>pom</packaging>
 
